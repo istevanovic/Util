@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = "Utilites framework"
   s.source 	 = { :git => "https://github.com/istevanovic/Util", :tag => s.version.to_s }
 
-  base_dir = 'Util/Util/Util'
+  base_dir = 'Util/Util'
   s.source_files = base_dir + '/**/*.{h,m,swift}'
   s.public_header_files = base_dir + '/**/*.h'
   s.resources = base_dir + '/**/*.xcdatamodeld'
